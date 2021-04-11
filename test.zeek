@@ -8,7 +8,7 @@ event zeek_init()
 	                  if(r$num>2)
 	                  if(r$num/num_all>0.2)
 	                  if(r$unique/r$num>0.5){
-	                  print fmt("%s is a scanner with %d scan attempts on %d urls.",key$host,r$num,r$unique);
+	                  print fmt("%s is a scanner with %d scan attemps on %d urls.",key$host,r$num,r$unique);
 	                  }}]);
 	
 	}
